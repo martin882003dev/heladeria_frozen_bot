@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "heladeria_frozen_bot"
+version = "0.1.0"
+description = "Bot desarrollado en python, diseñado para Heladería Fronzen SRL con el objetivo de automatizar los pedidos helados"
+authors = ["Martín Herrán <88115362+martin882003dev@users.noreply.github.com>"]
+license = "MIT License"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.28.1"
+pydantic = "^1.10.2"
+python-dotenv = "^0.21.0"
+sqlalchemy = "^1.4.42"
+rich = "^12.6.0"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.6.0"
+alembic = "^1.8.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
