@@ -21,16 +21,16 @@ Bot desarrollado en Python, diseñado para 🏢 Heladería Frozen SRL 🏢 con e
 ```sh
 $ git clone https://github.com/martin882003dev/heladeria_frozen_bot.git
 ```
-1. Dirigirse al directorio raíz e instalar las dependencias con poetry:
+2. Dirigirse al directorio raíz e instalar las dependencias con poetry:
 ```sh
 $ cd heladeria_frozen_bot/full_version
 $ poetry install
 ```
-1. Crear archivo `.env` con la api key de openweather:
+3. Crear archivo `.env` con la api key de openweather:
 ```
 $ echo OPEN_WEATHER_API_KEY=\"{ingresar_aqui_el_token}\" > .env
 ```
-1. Ejecutar la aplicación con poetry:
+4. Ejecutar la aplicación con poetry:
 ```sh
 $ poetry run python main.py
 ```
